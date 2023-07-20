@@ -1,0 +1,11 @@
+<mvc:View controllerName="myfirstsapapp.controller.MyFirstSapView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+
+    
+    <Page id="page" title="{i18n>title}">
+        <content>
+    <Button id="01010" text="Press" press="onClick"></Button>
+        </content>
+    </Page>
+</mvc:View>
